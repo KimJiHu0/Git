@@ -1,1 +1,1 @@
-Git Commit
+Git Commit을 feature/jihu 브랜치에 올립니다.
