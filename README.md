@@ -1,3 +1,55 @@
-- git add 파일명
-- git commit -m "Commit Message"
-- git remote add origin GIT_URL
+Git 영역
+Working Directory ( 개인 코드 작성 영역 )
+Stating ( git add를 통한 수정된 코드를 올리는 영역 )
+Repository ( git commit을 통한 최종 수정본을 올리는 영역 )
+
+############################################################## GIT 초기 시작 ##############################################################
+
+# git init
+  - Repository 생성합니다.
+# git clone Repository의 URL
+  - Git에 있는 파일을 복제하여 가져옵니다.
+# echo "Git Readme" > README.md
+  - README.md파일에 문구를 입력하여 Working Directory 영역에 생성합니다.
+# cat README.md
+  - 파일을 확인합니다.
+# git remote add origin Git_Url
+  - Remote Repository(원격저장소)와 현재 디렉토리를 연결합니다.
+
+###########################################################################################################################################
+
+############################################################## GIT 기본 명령어 ###############################################################
+ADD
+  # git add [fileName]  => 해당파일 하나를 추가합니다.
+  # git add -i          => 수정된 모든 파일들을 추가합니다.
+Working Directory에 추가한 내역 확인하기
+  # git status          => 수정된 내역들을 확인합니다.
+
+COMMIT
+  # git commit -m "commit message"    => 별도의 텍스트 편집기를 사용하지 않고 터미널에서 메세지를 입력합니다.
+  # git commit                        => 텍스트 편집기를 열어서 메세지를 입력합니다. 메세지 입력 후 리눅스 명령어를 사용하여 저장 및 나가기를 할 수 있습니다. ( :!qa 나가기 / :!wq 저장하고 나가기 )
+
+PUSH
+  # git push origin master  => origin이라는 원격 저장소의 master브랜치에 Push합니다.
+  # git push origin main    => origin이라는 원격 저장소의 main브랜치에 Push합니다.
+  # git push origin 브랜치명  => origin이라는 원격 저장소의 브랜치명에 Push합니다.
+
+PULL
+  # git pull  => Remote Repository에 PUSH한 파일들을 나의 Local Repository에 땡겨옵니다.
+
+############################################################################################################################################
+
+############################################################## GIT 번외 명령어 ###############################################################
+
+# git diff           => 변경내용 확인
+# git reset          => add한 내용 취소하기
+# git reset --hard   => 로컬 작업내역까지 모두 취소
+
+# git branch               => 브랜치 확인하기
+# git branch newbranch     => 브랜치 생성하기
+# git branch -d newbranch  => 브랜치 삭제하기
+# git checkout newbranch   => 기존 브랜치에서 newbranch 브랜치로 이동
+
+# 
+
+############################################################################################################################################
