@@ -1,0 +1,3 @@
+git add 파일명
+git commit -m "Commit Message"
+git remote add origin GIT_URL
