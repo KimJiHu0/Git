@@ -80,6 +80,12 @@
     
 ##### git branch -d newbranch
   - newbranch라는 브랜치 삭제
+
+##### git branch -m 이전브랜치명 변경브랜치명
+  - 이는 branch가 main에 있을 때 가능한 명령어로, git checkout main 혹은 git checkout origin 에서 가능
+
+##### git branch -m 변경브랜치명
+  - 해당 명령어는 변경할 브랜치로 직접 들어와서 실행하는 명령어로 git checkout 브랜치명 으로 진입 후 사용 가능
     
 ##### git checkout newbranch
   - 기존 브랜치에서 newbranch라는 브랜치로 이동
