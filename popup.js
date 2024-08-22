@@ -7,3 +7,7 @@ export const popup_data = () => {
         },
     };
 };
+
+export const list_data = () => {
+    return ['제목1', '제목2'];
+};
